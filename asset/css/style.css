@@ -1,3 +1,26 @@
+.nav-form .input-group{
+    border-radius: 25px; 
+    border: 1px solid #ccc; 
+    background-color: #f8f9fa;
+}
+
+.nav-form input{
+    border: none; 
+    background-color: transparent;
+}
+
+.nav-form input:focus{    
+    border-radius: 25px; 
+    border: none; 
+    outline: none;
+    box-shadow: none;
+}
+
+
+.nav-form .btn:hover{
+    color: #7c0707;
+}
+
 .hero-news .card-header{
     overflow: hidden;
 }
