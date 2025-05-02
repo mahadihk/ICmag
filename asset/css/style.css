@@ -1,0 +1,24 @@
+.hero-news .card-header{
+    overflow: hidden;
+}
+
+.hero-news .card-img-top{
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-news:hover .card-img-top{
+    transform: scale(1.1) rotateZ(-1deg);
+}
+
+.top-five-news div:hover{
+    border-color: black !important;
+}
+
+.category-index .cat-item:hover .cat-arrow{
+    display: inline-block !important;
+}
+
+.bg-blurred{
+    backdrop-filter: blur(10px);
+}
