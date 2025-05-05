@@ -97,14 +97,17 @@ Include some screenshots of your template to give viewers a quick visual underst
 Remember to replace "path/to/your/..." with the actual paths to your screenshot images. -->
 
 👏 Acknowledgements
+
 Bootstrap: For providing a robust and responsive CSS framework. (https://getbootstrap.com/)
 GSAP (GreenSock Animation Platform): For the powerful and smooth animation capabilities. (https://gsap.com/)
 Interactive Cares: For providing the learning opportunity and guidance through the Complete Career Path Batch 04. (https://www.interactivecares.com/)
 
 🎓 Created By
+
 This website template was created by Mahadi Hasan [GitHub: @mahadihk] as an assignment for the Interactive Cares Complete Career Path Batch 04.
 
 📄 License
+
 MIT License
 
 Copyright (c) 2025 Mahadi Hasan
