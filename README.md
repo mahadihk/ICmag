@@ -42,6 +42,7 @@ This project was created as an assignment for the **Interactive Cares Complete C
 
 ## 📂 File Structure
 
+```
 ICMag/
 ├── asset/              # Assets like CSS, images, and JS
 │   ├── css/
@@ -62,7 +63,7 @@ ICMag/
 ├── index.html          # The main homepage of the news website
 ├── LICENSE
 └── README.md           # This file
-
+```
 
 ## ⚙️ Usage
 
@@ -98,13 +99,13 @@ Remember to replace "path/to/your/..." with the actual paths to your screenshot 
 
 👏 Acknowledgements
 
-Bootstrap: For providing a robust and responsive CSS framework. (https://getbootstrap.com/)
-GSAP (GreenSock Animation Platform): For the powerful and smooth animation capabilities. (https://gsap.com/)
-Interactive Cares: For providing the learning opportunity and guidance through the Complete Career Path Batch 04. (https://www.interactivecares.com/)
+* **Bootstrap:** For providing a robust ad responsive CSS framework. (https://getbootstrap.com/)
+* **GSAP (GreenSock Animation Platform):** For the powerful and smooth animation capabilities. (https://gsap.com/)
+* **Interactive Cares:** For providing the learning opportunity and guidance through the Complete Career Path Batch 04. (https://www.interactivecares.com/)
 
 🎓 Created By
 
-This website template was created by Mahadi Hasan [GitHub: @mahadihk] as an assignment for the Interactive Cares Complete Career Path Batch 04.
+This website template was created by **Mahadi Hasan** [GitHub: @mahadihk] as an assignment for the Interactive Cares Complete Career Path Batch 04.
 
 📄 License
 
