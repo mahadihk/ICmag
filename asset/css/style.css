@@ -1,63 +1,70 @@
 /* Custom Colors */
-:root{
-    --orange: #f08f64;
+:root {
+  --orange: #f08f64;
 }
 
-.soft-orange{
-    color: var(--orange);
+.soft-orange {
+  color: var(--orange);
 }
-.bg-orange{
-    background-color: var(--orange);
-}
-
-body{
-    background-color: #f9f9f9;
+.bg-orange {
+  background-color: var(--orange);
 }
 
-.nav-form .input-group{
-    border-radius: 25px; 
-    border: 1px solid #ccc; 
-    background-color: #f8f9fa;
+body {
+  background-color: #f9f9f9;
 }
 
-.nav-form input{
-    border: none; 
-    background-color: transparent;
+.nav-form .input-group {
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
 }
 
-.nav-form input:focus{    
-    border-radius: 25px; 
-    border: none; 
-    outline: none;
-    box-shadow: none;
+.nav-form input {
+  border: none;
+  background-color: transparent;
 }
 
-
-.nav-form .btn:hover{
-    color: #7c0707;
+.nav-form input:focus {
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
-.hero-news .card-header{
-    overflow: hidden;
+.nav-form .btn:hover {
+  color: #7c0707;
 }
 
-.hero-news .card-img-top{
-    
-    transition: transform 0.3s ease-in-out;
+.hero-news .card-header {
+  overflow: hidden;
 }
 
-.hero-news:hover .card-img-top{
-    transform: scale(1.1) rotateZ(-1deg);
+.hero-news .card-img-top {
+  transition: transform 0.3s ease-in-out;
 }
 
-.top-five-news div:hover{
-    border-color: black !important;
+.hero-news:hover .card-img-top {
+  transform: scale(1.1) rotateZ(-1deg);
 }
 
-.category-index .cat-item:hover .cat-arrow{
-    display: inline-block !important;
+.top-five-news div:hover {
+  border-color: black !important;
 }
 
-.bg-blurred{
-    backdrop-filter: blur(10px);
+.category-index .cat-item:hover .cat-arrow {
+  display: inline-block !important;
+}
+
+.bg-blurred {
+  backdrop-filter: blur(10px);
+}
+
+.btn-orange {
+  background-color: var(--orange);
+}
+
+#footer input::placeholder {
+  color: white;
+  opacity: 1; /* Optional: Ensures it's fully white */
 }

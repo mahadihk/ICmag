@@ -1,56 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ICMag</title>
-        
-        <!-- Bootstrap -->
-        <link  rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ICMag</title>
 
-        <!-- FontAwesome -->
-        <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css" />
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="./asset/css/style.css">
-    </head>
-    <body>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css" />
 
-        <!-- Navbar : Start -->
-        <div class="container">   
-            <nav class="navbar navbar-expand-lg bg-body-tertiary mt-4">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img class="img-fluid" src="./asset/images/logo.png" alt="IC Magazine Logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Business</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Health</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">World</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Sports</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Culture</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Cart (0)</a>
-                            </li>
-                        </ul>
-                        <!-- <form class="d-flex" role="search">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar : Start -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg shadow bg-white mt-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="img-fluid"
+              src="./asset/images/logo.png"
+              alt="IC Magazine Logo" />
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon border-0 bg-orange rounded-circle"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Business</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Health</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">World</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cart (0)</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search Here" aria-label="Search" aria-describedby="button-addon2">
                                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">
@@ -58,443 +69,805 @@
                                 </button>
                             </div>
                         </form> -->
-                        <form class="d-flex nav-form" role="search">
-                            <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Search Here" aria-label="Search" aria-describedby="button-addon2">
-                              <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="border: none; background-color: transparent;">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                              </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+            <form class="d-flex nav-form" role="search">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Here"
+                  aria-label="Search"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="button-addon2"
+                  style="border: none; background-color: transparent"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-        <!-- Navbar : End -->
+      </nav>
+    </div>
+    <!-- Navbar : End -->
 
-        <!-- Hero Section : Start -->
-        
-        <div class="container mt-5">
+    <!-- Hero Section : Start -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <div class="card hero-news mb-3 border-0">
+            <a href="#" class="stretched-link text-decoration-none">
+              <div class="card-header p-0">
+                <img
+                  src="./asset/images/port.jpg"
+                  class="card-img-top"
+                  alt="industry stock image"
+                />
+              </div>
+              <div class="card-body px-0">
+                <span class="fs-2 card-title"
+                  >Revolutionizing manufacturing emerging trends shaping the
+                  industry</span
+                >
+                <p class="card-text fs-4 my-3">
+                  <span class="badge text-bg-primary">
+                    <i class="fa-solid fa-earth-asia"></i> World News
+                  </span>
+                  <small class="text-body-secondary"> - May 02, 2025</small>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Top 5 News -->
+        <div class="col-12 col-md-4 top-five-news">
+          <!-- News Item : 01 -->
+          <div class="border-bottom p-3">
+            <p class="fs-5">
+              <span class="badge text-bg-warning">
+                <i class="fa-solid fa-chart-line"></i> Culture
+              </span>
+              <small class="text-body-secondary"> - April 28, 2025</small>
+            </p>
+            <h5>The power of art in connecting and expressing cultural</h5>
+          </div>
+
+          <!-- News Item : 02 -->
+          <div class="border-bottom p-3">
+            <p class="fs-5">
+              <span class="badge text-bg-info">
+                <i class="fa-solid fa-chart-line"></i> Business
+              </span>
+              <small class="text-body-secondary"> - April 27, 2025</small>
+            </p>
+            <h5>Adapting business strategies to meet changing demands</h5>
+          </div>
+
+          <!-- News Item : 03 -->
+          <div class="border-bottom p-3">
+            <p class="fs-5">
+              <span class="badge text-bg-danger">
+                <i class="fa-solid fa-chart-line"></i> Technology
+              </span>
+              <small class="text-body-secondary"> - April 26, 2025</small>
+            </p>
+            <h5>
+              Smart homes revolution how iot is transforming living spaces
+            </h5>
+          </div>
+
+          <!-- News Item : 04 -->
+          <div class="border-bottom p-3">
+            <p class="fs-5">
+              <span class="badge text-bg-primary">
+                <i class="fa-solid fa-futbol"></i> Sports
+              </span>
+              <small class="text-body-secondary"> - April 25, 2025</small>
+            </p>
+            <h5>
+              The influence of youth sports programs on developing future
+              champions
+            </h5>
+          </div>
+
+          <!-- News Item : 05 -->
+          <div class="border-bottom p-3">
+            <p class="fs-5">
+              <span class="badge text-bg-success">
+                <i class="fa-solid fa-chart-line"></i> Health News
+              </span>
+              <small class="text-body-secondary"> - April 24, 2025</small>
+            </p>
+            <h5>
+              How artificial intelligence & machine learning are changing the
+              field
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section : End  -->
+
+    <!-- Categoty Index : Start -->
+
+    <div class="container">
+      <div class="row category-index my-5">
+        <!-- World News -->
+        <div class="col-sm-6 col-md-2 my-2">
+          <div class="card position-relative">
+            <a href="#" class="stretched-link cat-item">
+              <img
+                src="./asset/images/world.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
+                <span class="text-white">World News</span>
+                <span class="float-end text-white d-none cat-arrow"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cultute -->
+        <div class="col-sm-6 col-md-2 my-2">
+          <div class="card position-relative">
+            <a href="#" class="stretched-link cat-item">
+              <img
+                src="./asset/images/culture.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
+                <span class="text-white">Culture</span>
+                <span class="float-end text-white d-none cat-arrow"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Health -->
+        <div class="col-sm-6 col-md-2 my-2">
+          <div class="card position-relative">
+            <a href="#" class="stretched-link cat-item">
+              <img
+                src="./asset/images/health.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
+                <span class="text-white">Health</span>
+                <span class="float-end text-white d-none cat-arrow"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sports -->
+        <div class="col-sm-6 col-md-2 my-2">
+          <div class="card position-relative">
+            <a href="#" class="stretched-link cat-item">
+              <img
+                src="./asset/images/sports.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
+                <span class="text-white">Sports</span>
+                <span class="float-end text-white d-none cat-arrow"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Technology -->
+        <div class="col-sm-6 col-md-2 my-2">
+          <div class="card position-relative">
+            <a href="#" class="stretched-link cat-item">
+              <img
+                src="./asset/images/tech.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
+                <span class="text-white">Technology</span>
+                <span class="float-end text-white d-none cat-arrow"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Entertainment -->
+        <div class="col-sm-6 col-md-2 my-2">
+          <div class="card position-relative">
+            <a href="#" class="stretched-link cat-item">
+              <img
+                src="./asset/images/entertainment.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
+                <span class="text-white">Entertainment</span>
+                <span class="float-end text-white d-none cat-arrow"
+                  ><i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categoty Index : End -->
+
+    <!-- Editorial : Start -->
+    <div class="container mt-5 py-5">
+      <div class="row gx-5">
+        <!-- Editorial -->
+        <div class="col-12 col-md-5 bg-white top-five-news">
+          <!-- Heading -->
+          <div class="p-4 mb-4">
+            <h5>Stories That Matter</h5>
+            <h2>Editor's Pick</h2>
+          </div>
+
+          <!-- Editorial : 01 -->
+          <div class="border-top p-3">
+            <p>CULTURE</p>
+            <h5>The power of art in connecting and expressing cultural</h5>
+          </div>
+
+          <!-- Editorial : 02 -->
+          <div class="border-top p-3">
+            <p>SPORTS</p>
+            <h5>
+              The influence of youth sports programs on developing future
+              champions
+            </h5>
+          </div>
+
+          <!-- Editorial : 03 -->
+          <div class="border-top p-3">
+            <p>TECNOLOGY</p>
+            <h5>
+              Smart homes revolution how iot is transforming living spaces
+            </h5>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-7">
+          <img class="img-fluid" src="./asset/images/editorial.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Editorial : End -->
+
+    <!-- Latest News : Start -->
+    <div class="container-fluid bg-orange">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 mt-5 mb-3 pt-5">
+            <h2>LATEST NEWS</h2>
+          </div>
+          <div class="col-3 mt-5 pt-5">
+            <p class="float-end">
+              <a class="fs-5 text-dark text-decoration-none" href="#"
+                >view all <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-3 pb-3">
+          <!-- News 01 -->
+          <div class="col-6 col-md-4">
+            <div class="card border-0">
+              <img
+                src="./asset/images/trade.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-orange px-0">
+                <span> BUSINESS - May 03, 2025</span>
+                <p class="card-text">
+                  <a
+                    href="#"
+                    class="stretched-link text-decoration-none fs-5 text-dark"
+                    >US tariffs will make global trade shrink, says WTO</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- News 02 -->
+          <div class="col-6 col-md-4">
+            <div class="card border-0">
+              <img
+                src="./asset/images/Lucianne.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body bg-orange px-0">
+                <span> TECHNOLOGY - May 02, 2025</span>
+                <p class="card-text">
+                  <a
+                    href="#"
+                    class="stretched-link text-decoration-none fs-5 text-dark"
+                    >Lucianne Walkowicz: Should We Be Using Mars As A Backup
+                    Planet?</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="row">
+              <div class="col-12 mx-3 mt-0 mb-2">
+                <div class="card mb-3 border-0">
+                  <div class="row g-0">
+                    <div class="col-4 bg-orange">
+                      <img
+                        src="./asset/images/dhaka.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+
+                    <div class="col-8">
+                      <div class="card-body bg-orange">
+                        <span> WEATHER - May 03, 2025</span>
+                        <p class="card-text">
+                          <a
+                            href="#"
+                            class="text-decoration-none fs-5 text-dark"
+                            >Mild heatwave sweeps Dhaka</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 mx-3 mb-2">
+                <div class="card mb-3 border-0">
+                  <div class="row g-0">
+                    <div class="col-4 bg-orange">
+                      <img
+                        src="./asset/images/food.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+
+                    <div class="col-8">
+                      <div class="card-body bg-orange">
+                        <span> RECIPE - May 03, 2025</span>
+                        <p class="card-text">
+                          <a
+                            href="#"
+                            class="text-decoration-none fs-5 text-dark"
+                            >Authentic Arabian Kuboos Recipe</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 mx-3 mb-2">
+                <div class="card mb-3 border-0">
+                  <div class="row g-0">
+                    <div class="col-4 bg-orange">
+                      <img
+                        src="./asset/images/arabia.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+
+                    <div class="col-8">
+                      <div class="card-body bg-orange">
+                        <span> GLOBAL - May 01, 2025</span>
+                        <p class="card-text">
+                          <a
+                            href="#"
+                            class="text-decoration-none fs-5 text-dark"
+                            >Oil price slump hits Saudi Arabia’s economic
+                            growth</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Latest News : End -->
+
+    <!-- Technology : Start -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 mt-5 mb-3 pt-5">
+            <h2>TECHNOLOGY</h2>
+          </div>
+          <div class="col-3 mt-5 pt-5">
+            <p class="float-end">
+              <a class="fs-5 text-dark text-decoration-none" href="#"
+                >view all <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-3 pb-3">
+          <div class="col-12 col-md-6">
+            <div class="row gy-5">
+              <div class="col">
+                <div class="card border-0">
+                  <img
+                    src="./asset/images/robot.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body px-0">
+                    <span> TECHNOLOGY - May 02, 2025</span>
+                    <p class="card-text">
+                      <a
+                        href="#"
+                        class="stretched-link text-decoration-none fs-5 text-dark"
+                        >Lucianne Walkowicz: Should We Be Using Mars As A Backup
+                        Planet?</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card border-0">
+                  <img
+                    src="./asset/images/huawei.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body px-0">
+                    <span> TECHNOLOGY - May 02, 2025</span>
+                    <p class="card-text">
+                      <a
+                        href="#"
+                        class="stretched-link text-decoration-none fs-5 text-dark"
+                        >Lucianne Walkowicz: Should We Be Using Mars As A Backup
+                        Planet?</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="card border-0">
+                  <img
+                    src="./asset/images/dji.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body px-0">
+                    <span> TECHNOLOGY - May 02, 2025</span>
+                    <p class="card-text">
+                      <a
+                        href="#"
+                        class="stretched-link text-decoration-none fs-5 text-dark"
+                        >Lucianne Walkowicz: Should We Be Using Mars As A Backup
+                        Planet?</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card border-0">
+                  <img
+                    src="./asset/images/chat-gpt.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body px-0">
+                    <span> TECHNOLOGY - May 02, 2025</span>
+                    <p class="card-text">
+                      <a
+                        href="#"
+                        class="stretched-link text-decoration-none fs-5 text-dark"
+                        >Lucianne Walkowicz: Should We Be Using Mars As A Backup
+                        Planet?</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card text-bg-dark position-relative">
+              <img src="./asset/images/gamer.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay">
+                <span class="badge rounded-pill text-bg-danger fs-5"
+                  >Mahadi Hasan</span
+                >
+                <div class="position-absolute bottom-0 mb-3">
+                  <span> TECHNOLOGY - May 02, 2025</span>
+                  <p class="card-text">
+                    <a
+                      href="#"
+                      class="stretched-link text-decoration-none fs-3 text-white"
+                      >Lucianne Walkowicz: Should We Be Using Mars As A Backup
+                      Planet?</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Technology : End -->
+
+    <!-- Advertise Start -->
+    <div class="container-fluid">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <div class="card position-relative">
+              <a href="#" class="stretched-link cat-item">
+                <img
+                  src="./asset/images/advertise.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
+                  <button type="button" class="btn btn-orange rounded-pill">
+                    Advertise With Us <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Advertise End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <div class="card position-relative">
+              <img
+                src="./asset/images/Publisher.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div
+                class="position-absolute bottom-0 text-white bg-blurred w-100 p-3"
+              >
+                <p class="fs-5">
+                  <span>Ryan Davidson</span>
+                  <span class="float-end">Publisher</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card position-relative">
+              <a href="#" class="stretched-link cat-item">
+                <img
+                  src="./asset/images/Editor.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="position-absolute bottom-0 text-white bg-blurred w-100 p-3"
+                >
+                  <p class="fs-5">
+                    <span>Miley Swift</span>
+                    <span class="float-end">Editor</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card position-relative">
+              <a href="#" class="stretched-link cat-item">
+                <img
+                  src="./asset/images/Content-writer.jpg"
+                  class="card-img-top"
+                  alt="..."/>
+                <div class="position-absolute bottom-0 text-white bg-blurred w-100 p-3">
+                  <p class="fs-5">
+                    <span>Natalie Green</span>
+                    <span class="float-end">Content Writer</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Podcast Start -->
+    <div class="container-fluid">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-9 mt-5 mb-3 pt-5">
+            <h2>PODCAST</h2>
+          </div>
+          <div class="col-3 mt-5 pt-5">
+            <p class="float-end">
+              <a class="fs-5 text-dark text-decoration-none" href="#"
+                >view all <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-7">
+            <div class="card text-bg-dark position-relative">
+              <img
+                src="./asset/images/podcast-1.jpg"
+                class="card-img"
+                alt="..." />
+              <div class="card-img-overlay">
+                <span class="badge rounded-pill bg-orange fs-5"
+                  >10 Minutes</span>
+                <div class="position-absolute bottom-0 mb-3">
+                  <span>Anika Tabassum</span>
+                  <p class="card-text">
+                    <a
+                      href="#"
+                      class="stretched-link text-decoration-none fs-3 text-white"
+                      >Mic, Cam, Action! With Lucy Portman</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5">
+            <div class="row gy-2">
+              <div class="col-12">
+                <div class="card text-bg-dark position-relative">
+                  <img
+                    src="./asset/images/podcast-2.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                  
+                    <div class="position-absolute bottom-0 mb-3">
+                      <span>Rashed Chowdhury</span>
+                      <p class="card-text">
+                        <a
+                          href="#"
+                          class="stretched-link text-decoration-none fs-5 text-white"
+                          >Signals from the Singularity. with Michale Santon</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="card text-bg-dark position-relative">
+                  <img
+                    src="./asset/images/podcast-3.jpg"
+                    class="card-img"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <div class="position-absolute bottom-0 mb-3">
+                      <span>Rafiq Mustafiz</span>
+                      <p class="card-text">
+                        <a
+                          href="#"
+                          class="stretched-link text-decoration-none fs-5 text-white"
+                          >Checkmate Chats: With GM Mikhail Anzolf</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Podcast End -->
+
+    <!-- Footer Start -->
+    <div id="footer" class="container-fluid bg-dark text-white">
+      <div class="container">
+        <div class="row my-5 py-5">
+
+          <div class="col-12 col-md-7">
             <div class="row">
 
-                <div class="col-12 col-md-8">
-                    <div class="card hero-news mb-3 border-0">                        
-                        <a href="#" class="stretched-link text-decoration-none">
-                            <div class="card-header p-0">
-                                <img src="./asset/images/port.jpg" class="card-img-top" alt="industry stock image">
-                            </div>
-                            <div class="card-body px-0">
-                                <span class="fs-2 card-title">Revolutionizing manufacturing emerging trends shaping the industry</span>
-                                <p class="card-text fs-4 my-3">
-                                    <span class="badge text-bg-primary"> <i class="fa-solid fa-earth-asia"></i> World News </span> <small class="text-body-secondary"> - May 02, 2025</small>
-                                </p>                        
-                            </div>
-                        </a>  
+              <div class="col-12">
+                <h3 class="fs-5">Stay updated with the latest news, stories, and insights from around the globe.</h3>
+
+                <form>
+                  <div class="row align-items-center"">
+                    <div class="col-7">                      
+                      <div class="input-group">
+                        <span class="input-group-text bg-transparent text-white border-end-0" id="basic-addon1"><i class="fa-regular fa-envelope"></i></span>
+                        <input type="text" class="form-control bg-transparent text-white border-start-0 rounded-pill" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
                     </div>
-                </div>
+                    <div class="col-5">
+                      <button class="btn btn-orange rounded-pill ml-3">Subscribe Now</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
 
-                <!-- Top 5 News -->
-                <div class="col-12 col-md-4 top-five-news">
-                    <!-- News Item : 01 -->
-                    <div class="border-bottom p-3">
-                        <p class="fs-5">
-                            <span class="badge text-bg-warning"> <i class="fa-solid fa-chart-line"></i> Culture </span> <small class="text-body-secondary"> - April 28, 2025</small>
-                        </p>
-                        <h5>The power of art in connecting and expressing cultural</h5>
-                    </div>  
-                    
-                    <!-- News Item : 02 -->
-                    <div class="border-bottom p-3">
-                        <p class="fs-5">
-                            <span class="badge text-bg-info"> <i class="fa-solid fa-chart-line"></i> Business </span> <small class="text-body-secondary"> - April 27, 2025</small>
-                        </p>
-                        <h5>Adapting business strategies to meet changing demands</h5>
-                    </div>  
+              <div class="col-12">
 
-                    <!-- News Item : 03 -->
-                    <div class="border-bottom p-3">
-                        <p class="fs-5">
-                            <span class="badge text-bg-danger"> <i class="fa-solid fa-chart-line"></i> Technology </span> <small class="text-body-secondary"> - April 26, 2025</small>
-                        </p>
-                        <h5>Smart homes revolution how iot is transforming living spaces</h5>
-                    </div>  
-
-                    <!-- News Item : 04 -->
-                    <div class="border-bottom p-3">
-                        <p class="fs-5">
-                            <span class="badge text-bg-primary"> <i class="fa-solid fa-futbol"></i> Sports </span> <small class="text-body-secondary"> - April 25, 2025</small>
-                        </p>
-                        <h5>The influence of youth sports programs on developing future champions</h5>
-                    </div>  
-
-                    <!-- News Item : 05 -->
-                    <div class="border-bottom p-3">
-                        <p class="fs-5">
-                            <span class="badge text-bg-success"> <i class="fa-solid fa-chart-line"></i> Health News </span> <small class="text-body-secondary"> - April 24, 2025</small>
-                        </p>
-                        <h5>How artificial intelligence & machine learning are changing the field</h5>
-                    </div>  
-                </div>
+              </div>
 
             </div>
+
+          </div>
+
+          <div class="col-12 col-md-5">
+
+          </div>
+
         </div>
-        <!-- Hero Section : End  -->
+      </div>
+    </div>
+    <!-- Footer End -->
 
-        <!-- Categoty Index : Start -->
-        
-        <div class="container">
-            <div class="row category-index my-5">
-
-                <!-- World News -->
-                <div class="col-sm-6 col-md-2 my-2">
-                    <div class="card position-relative">
-                        <a href="#" class="stretched-link cat-item">
-                            <img src="./asset/images/world.jpg" class="card-img-top" alt="...">
-                            <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
-                                <span class="text-white">World News</span>
-                                <span class="float-end text-white d-none cat-arrow"><i class="fa-solid fa-arrow-right"></i> </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Cultute -->
-                <div class="col-sm-6 col-md-2 my-2">
-                    <div class="card position-relative">
-                        <a href="#" class="stretched-link cat-item">
-                            <img src="./asset/images/culture.jpg" class="card-img-top" alt="...">
-                            <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
-                                <span class="text-white">Culture</span>
-                                <span class="float-end text-white d-none cat-arrow"><i class="fa-solid fa-arrow-right"></i> </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Health -->
-                <div class="col-sm-6 col-md-2 my-2">
-                    <div class="card position-relative">
-                        <a href="#" class="stretched-link cat-item">
-                            <img src="./asset/images/health.jpg" class="card-img-top" alt="...">
-                            <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
-                                <span class="text-white">Health</span>
-                                <span class="float-end text-white d-none cat-arrow"><i class="fa-solid fa-arrow-right"></i> </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Sports -->
-                <div class="col-sm-6 col-md-2 my-2">
-                    <div class="card position-relative">
-                        <a href="#" class="stretched-link cat-item">
-                            <img src="./asset/images/sports.jpg" class="card-img-top" alt="...">
-                            <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
-                                <span class="text-white">Sports</span>
-                                <span class="float-end text-white d-none cat-arrow"><i class="fa-solid fa-arrow-right"></i> </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Technology -->
-                <div class="col-sm-6 col-md-2 my-2">
-                    <div class="card position-relative">
-                        <a href="#" class="stretched-link cat-item">
-                            <img src="./asset/images/tech.jpg" class="card-img-top" alt="...">
-                            <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
-                                <span class="text-white">Technology</span>
-                                <span class="float-end text-white d-none cat-arrow"><i class="fa-solid fa-arrow-right"></i> </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Entertainment -->
-                <div class="col-sm-6 col-md-2 my-2">
-                    <div class="card position-relative">
-                        <a href="#" class="stretched-link cat-item">
-                            <img src="./asset/images/entertainment.jpg" class="card-img-top" alt="...">
-                            <div class="position-absolute bottom-0 bg-blurred w-100 p-3">
-                                <span class="text-white">Entertainment</span>
-                                <span class="float-end text-white d-none cat-arrow"><i class="fa-solid fa-arrow-right"></i> </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        
-        <!-- Categoty Index : End -->
-
-        <!-- Editorial : Start -->
-        <div class="container mt-5 py-5">
-            <div class="row gx-5">
-
-                <!-- Editorial -->
-                <div class="col-12 col-md-5 bg-white top-five-news">
-                    <!-- Heading -->
-                    <div class="p-4 mb-4">
-                        <h5>Stories That Matter</h5>
-                        <h2>Editor's Pick</h2>
-                    </div>  
-                    
-                    <!-- Editorial : 01 -->
-                    <div class="border-top p-3">
-                        <p>CULTURE</p>
-                        <h5>The power of art in connecting and expressing cultural</h5>
-                    </div>  
-
-                    <!-- Editorial : 02 -->
-                    <div class="border-top p-3">
-                        <p>SPORTS</p>
-                        <h5>The influence of youth sports programs on developing future champions</h5>
-                    </div>  
- 
-
-                    <!-- Editorial : 03 -->
-                    <div class="border-top p-3">
-                        <p>TECNOLOGY</p>
-                        <h5>Smart homes revolution how iot is transforming living spaces</h5>
-                    </div>  
-                    
-                </div>
-
-                <div class="col-12 col-md-7">
-                    <img class="img-fluid" src="./asset/images/editorial.jpg" alt="">
-                </div>
-
-            </div>
-        </div>
-        <!-- Editorial : End -->
-
-        <!-- Latest News : Start -->
-        <div class="container-fluid bg-orange">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-9 mt-5 mb-3 pt-5">
-                        <h2>LATEST NEWS</h2>
-                    </div>
-                    <div class="col-3 mt-5 pt-5">
-                        <p class="float-end">
-                            <a class="fs-5 text-dark text-decoration-none" href="#">view all <i class="fa-solid fa-arrow-right"></i></a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row gx-3 pb-3">                    
-
-                    <!-- News 01 -->
-                    <div class="col-6 col-md-4">
-                        <div class="card border-0">
-                            <img src="./asset/images/trade.jpg" class="card-img-top" alt="...">
-                            <div class="card-body bg-orange px-0">
-                                <span> BUSINESS - May 03, 2025</span>
-                                <p class="card-text">
-                                    <a href="#" class="stretched-link text-decoration-none fs-5 text-dark">US tariffs will make global trade shrink, says WTO</a>
-                                </p>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- News 02 -->
-                    <div class="col-6 col-md-4">
-                        <div class="card border-0">
-                            <img src="./asset/images/Lucianne.jpg" class="card-img-top" alt="...">
-                            <div class="card-body bg-orange px-0">
-                                <span> TECHNOLOGY - May 02, 2025</span>
-                                <p class="card-text">
-                                    <a href="#" class="stretched-link text-decoration-none fs-5 text-dark">Lucianne Walkowicz: Should We Be Using Mars As A Backup Planet?</a>
-                                </p>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-4">
-                        <div class="row">
-                            
-                            <div class="col-12 mx-3 mt-0 mb-2">
-                                <div class="card mb-3 border-0">
-                                    <div class="row g-0">
-
-                                      <div class="col-4 bg-orange">
-                                        <img src="./asset/images/dhaka.jpg" class="img-fluid" alt="...">
-                                      </div>
-
-                                      <div class="col-8">
-                                        <div class="card-body bg-orange">
-                                            <span> WEATHER - May 03, 2025</span>
-                                            <p class="card-text">
-                                                <a href="#" class="text-decoration-none fs-5 text-dark">Mild heatwave sweeps Dhaka</a>
-                                            </p>
-                                        </div>
-                                      </div>
-
-                                    </div>
-                                  </div>
-                            </div>
-
-                            
-                            <div class="col-12 mx-3 mb-2">
-                                <div class="card mb-3 border-0">
-                                    <div class="row g-0">
-
-                                      <div class="col-4 bg-orange">
-                                        <img src="./asset/images/food.jpg" class="img-fluid" alt="...">
-                                      </div>
-
-                                      <div class="col-8">
-                                        <div class="card-body bg-orange">
-                                            <span> RECIPE - May 03, 2025</span>
-                                            <p class="card-text">
-                                                <a href="#" class="text-decoration-none fs-5 text-dark">Authentic Arabian Kuboos Recipe</a>
-                                            </p>
-                                        </div>
-                                      </div>
-
-                                    </div>
-                                  </div>
-                            </div>
-
-                            
-                            <div class="col-12 mx-3 mb-2">
-                                <div class="card mb-3 border-0">
-                                    <div class="row g-0">
-
-                                      <div class="col-4 bg-orange">
-                                        <img src="./asset/images/arabia.jpg" class="img-fluid" alt="...">
-                                      </div>
-
-                                      <div class="col-8">
-                                        <div class="card-body bg-orange">
-                                            <span> GLOBAL - May 01, 2025</span>
-                                            <p class="card-text">
-                                                <a href="#" class="text-decoration-none fs-5 text-dark">Oil price slump hits Saudi Arabia’s economic growth</a>
-                                            </p>
-                                        </div>
-                                      </div>
-
-                                    </div>
-                                  </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Latest News : End -->
-
-        <!-- Technology : Start -->
-        <div class="container-fluid">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-9 mt-5 mb-3 pt-5">
-                        <h2>TECHNOLOGY</h2>
-                    </div>
-                    <div class="col-3 mt-5 pt-5">
-                        <p class="float-end">
-                            <a class="fs-5 text-dark text-decoration-none" href="#">view all <i class="fa-solid fa-arrow-right"></i></a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row gx-3 pb-3">
-
-                    <div class="col-12 col-md-6">
-                        <div class="row">
-
-                            <div class="col">
-                                <div class="card border-0">
-                                    <img src="./asset/images/Lucianne.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body px-0">
-                                        <span> TECHNOLOGY - May 02, 2025</span>
-                                        <p class="card-text">
-                                            <a href="#" class="stretched-link text-decoration-none fs-5 text-dark">Lucianne Walkowicz: Should We Be Using Mars As A Backup Planet?</a>
-                                        </p>
-                                        
-                                    </div>
-                                </div>                                
-                            </div>
-
-                            <div class="col">
-                                <div class="card border-0">
-                                    <img src="./asset/images/Lucianne.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body px-0">
-                                        <span> TECHNOLOGY - May 02, 2025</span>
-                                        <p class="card-text">
-                                            <a href="#" class="stretched-link text-decoration-none fs-5 text-dark">Lucianne Walkowicz: Should We Be Using Mars As A Backup Planet?</a>
-                                        </p>
-                                        
-                                    </div>
-                                </div>                                
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col">
-                                <div class="card border-0">
-                                    <img src="./asset/images/Lucianne.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body px-0">
-                                        <span> TECHNOLOGY - May 02, 2025</span>
-                                        <p class="card-text">
-                                            <a href="#" class="stretched-link text-decoration-none fs-5 text-dark">Lucianne Walkowicz: Should We Be Using Mars As A Backup Planet?</a>
-                                        </p>
-                                        
-                                    </div>
-                                </div>                                
-                            </div>
-
-                            <div class="col">
-                                <div class="card border-0">
-                                    <img src="./asset/images/Lucianne.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body px-0">
-                                        <span> TECHNOLOGY - May 02, 2025</span>
-                                        <p class="card-text">
-                                            <a href="#" class="stretched-link text-decoration-none fs-5 text-dark">Lucianne Walkowicz: Should We Be Using Mars As A Backup Planet?</a>
-                                        </p>
-                                        
-                                    </div>
-                                </div>                                
-                            </div>
-
-                        </div>
-                    </div>      
-                    
-                    <div class="col-12 col-md-6">
-                        <div class="card text-bg-dark position-relative">
-                            <img src="./asset/images/tech2.jpg" class="card-img" alt="...">
-                            <div class="card-img-overlay">
-                                <span class="badge rounded-pill text-bg-danger fs-5">Mahadi Hasan</span>
-                                <div class="position-absolute bottom-0 mb-3">
-                                    <span> TECHNOLOGY - May 02, 2025</span>
-                                    <p class="card-text">
-                                        <a href="#" class="stretched-link text-decoration-none fs-3 text-white">Lucianne Walkowicz: Should We Be Using Mars As A Backup Planet?</a>
-                                    </p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                   
-                </div>
-            </div>
-        </div>
-        <!-- Technology : End -->
-
-        
-        <!-- Bootstrap JS -->
-        <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <!-- Custom JS -->
-        <script src="./asset/js/app.js"></script>
-        
-    </body>
+    <!-- Bootstrap JS -->
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./asset/js/app.js"></script>
+  </body>
 </html>

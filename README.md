@@ -5,9 +5,7 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
 [![GSAP](https://img.shields.io/badge/GSAP-88CE00?style=for-the-badge&logoColor=white)](https://greensock.com/)
-[![Responsive](https://img.shields.io/badge/Responsive-00ADD8?style=for-the-badge&logo=responsivevoice&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries)
-[![Interactive Cares](https://img.shields.io/badge/Interactive%20Cares-FF69B4?style=for-the-badge&logoColor=white)](https://interactivecares.com/)
-[![Assignment Batch 04](https://img.shields.io/badge/Assignment-Batch%2004-blueviolet?style=for-the-badge&logoColor=white)](https://interactivecares.com/)
+
 
 <p align="center">
   <img src="./asset/images/Screenshot.png" alt="IC-Mag Website Template Preview" width="800">
