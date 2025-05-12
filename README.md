@@ -6,7 +6,6 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
 [![GSAP](https://img.shields.io/badge/GSAP-88CE00?style=for-the-badge&logoColor=white)](https://greensock.com/)
 
-
 <p align="center">
   <img src="./asset/images/Screenshot.png" alt="IC-Mag Website Template Preview" width="800">
   <br>
@@ -21,22 +20,22 @@ This project was created as an assignment for the **Interactive Cares Complete C
 
 ## 🚀 Features
 
-* **Fully Responsive Layout:** Adapts seamlessly to different screen sizes (desktops, tablets, and mobile devices) thanks to Bootstrap's grid system.
-* **Clean and Modern Design:** Features a contemporary aesthetic that prioritizes readability and user engagement.
-* **Dynamic Elements:** Incorporates JavaScript for interactive features and enhanced user experience.
-* **Smooth Animations:** Leverages GSAP for subtle yet impactful animations that add visual flair and improve transitions.
-* **Well-Structured HTML:** Semantic HTML5 is used for better SEO and accessibility.
-* **Organized CSS:** Styles are well-structured and easy to customize.
-* **Bootstrap Components:** Utilizes various Bootstrap components for a consistent and efficient development process.
-* **Easy to Customize:** The template is designed to be easily adaptable to different branding and content requirements.
+- **Fully Responsive Layout:** Adapts seamlessly to different screen sizes (desktops, tablets, and mobile devices) thanks to Bootstrap's grid system.
+- **Clean and Modern Design:** Features a contemporary aesthetic that prioritizes readability and user engagement.
+- **Dynamic Elements:** Incorporates JavaScript for interactive features and enhanced user experience.
+- **Smooth Animations:** Leverages GSAP for subtle yet impactful animations that add visual flair and improve transitions.
+- **Well-Structured HTML:** Semantic HTML5 is used for better SEO and accessibility.
+- **Organized CSS:** Styles are well-structured and easy to customize.
+- **Bootstrap Components:** Utilizes various Bootstrap components for a consistent and efficient development process.
+- **Easy to Customize:** The template is designed to be easily adaptable to different branding and content requirements.
 
 ## 🛠️ Technologies Used
 
-* **HTML5:** The structural foundation of the website.
-* **CSS3:** Styling and layout of the website.
-* **Bootstrap:** A powerful CSS framework for responsive design and pre-built components.
-* **JavaScript:** Adds interactivity and dynamic functionality.
-* **GSAP (GreenSock Animation Platform):** A robust JavaScript library for creating high-performance animations.
+- **HTML5:** The structural foundation of the website.
+- **CSS3:** Styling and layout of the website.
+- **Bootstrap:** A powerful CSS framework for responsive design and pre-built components.
+- **JavaScript:** Adds interactivity and dynamic functionality.
+- **GSAP (GreenSock Animation Platform):** A robust JavaScript library for creating high-performance animations.
 
 ## 📂 File Structure
 
@@ -66,40 +65,27 @@ ICMag/
 ## ⚙️ Usage
 
 1.  **Clone the repository** (if you have it hosted on GitHub):
+
     ```bash
     git clone <repository-url>
-    cd news-template
+    cd ICmag
     ```
 
 2.  **Open `index.html`** in your web browser to view the template.
 
 3.  **Customize the content:**
-    * Modify the HTML files (`index.html`, etc.) to add your news articles, headings, and other content.
-    * Edit the CSS file (`asset/css/style.css`) to change the visual appearance, colors, fonts, and layout.
-    * Implement any specific JavaScript functionality you need in (`asset/js/app.js`).
+
+    - Modify the HTML files (`index.html`, etc.) to add your news articles, headings, and other content.
+    - Edit the CSS file (`asset/css/style.css`) to change the visual appearance, colors, fonts, and layout.
+    - Implement any specific JavaScript functionality you need in (`asset/js/app.js`).
 
 4.  **Integrate your own images and assets** by placing them in the `img/` folder or updating the file paths in the HTML and CSS.
 
-<!-- ## 🖼️ Screenshots (Optional)
-
-Include some screenshots of your template to give viewers a quick visual understanding. You can add them here using Markdown image syntax:
-
-```markdown
-### Homepage
-<img src="path/to/your/homepage_screenshot.png" alt="Homepage Screenshot" width="600">
-
-### Article Page
-<img src="path/to/your/article_screenshot.png" alt="Article Page Screenshot" width="600">
-
-### Responsive View (Mobile)
-<img src="path/to/your/mobile_screenshot.png" alt="Mobile View Screenshot" width="300">
-Remember to replace "path/to/your/..." with the actual paths to your screenshot images. -->
-
 👏 Acknowledgements
 
-* **Bootstrap:** For providing a robust ad responsive CSS framework. (https://getbootstrap.com/)
-* **GSAP (GreenSock Animation Platform):** For the powerful and smooth animation capabilities. (https://gsap.com/)
-* **Interactive Cares:** For providing the learning opportunity and guidance through the Complete Career Path Batch 04. (https://www.interactivecares.com/)
+- **Bootstrap:** For providing a robust ad responsive CSS framework. (https://getbootstrap.com/)
+- **GSAP (GreenSock Animation Platform):** For the powerful and smooth animation capabilities. (https://gsap.com/)
+- **Interactive Cares:** For providing the learning opportunity and guidance through the Complete Career Path Batch 04. (https://www.interactivecares.com/)
 
 🎓 Created By
 
